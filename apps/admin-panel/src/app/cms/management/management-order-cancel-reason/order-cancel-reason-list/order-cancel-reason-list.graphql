@@ -1,0 +1,10 @@
+query OrderCancelReasonList($paging: OffsetPaging) {
+  orderCancelReasons(paging: $paging) {
+    nodes {
+      id
+      title
+      isEnabled
+      userType
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<nz-page-header [nzGhost]="false" nzBackIcon [nzTitle]="'cancelReason.title' | translate"
+  [nzSubtitle]="'cancelReason.subtitle' | translate">
+</nz-page-header>
+<nz-card [nzActions]="[tmplActions]" style="mt-16">
+  <form nz-form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <input formControlName="id" type="hidden" hidden>
+    <nz-form-item>
+      <nz-form-label nzRequired nzFor="title">{{ 'profile.title' | translate }}</nz-form-label>
+      <nz-form-control [nzErrorTip]="'error.titleInvalid' | translate">
+        <input nz-input formControlName="title" id="title" />
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-label nzFor="userType">User Type</nz-form-label>
+      <nz-form-control>
+        <nz-select nzMode="default" nzPlaceHolder="Please select" formControlName="userType">
+          <nz-option nzLabel="Driver" nzValue="Driver"></nz-option>
+          <nz-option nzLabel="Rider" nzValue="Rider"></nz-option>
+        </nz-select>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-label nzRequired nzFor="isEnabled">{{ 'profile.visibilityStatus' | translate }}</nz-form-label>
+      <nz-form-control>
+        <nz-switch required id="isEnabled" formControlName="isEnabled"></nz-switch>
+      </nz-form-control>
+    </nz-form-item>
+    <ng-template #tmplActions>
+      <button nz-button nzType="primary" [disabled]="form.invalid" (click)="onSubmit()">{{'profile.submit' |
+        translate}}</button>
+    </ng-template>
+  </form>
+</nz-card>

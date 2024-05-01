@@ -1,0 +1,11 @@
+"notification_new_request_title" = "New Request";
+"notification_new_request_body" = "A new ride request is available";
+"notification_new_message_title" = "New Message";
+"notification_paid_title" = "Paid!";
+"notification_paid_body" = "The payment for the trip has been settled";
+"notification_cancel_title" = "Canceled";
+"notification_cancel_body" = "Your upcoming ride has been cancelled";
+"notification_assigned_title" = "Assigned";
+"notification_assigned_body" = "Hey! You have been assigned to a booked ride planned on %@. From: %@ -> %@.";
+"notification_upcoming_ride_title" = "Upcoming ride";
+"notification_upcoming_ride_body" = "Hey! You have an upcoming ride in less than 10 minutes";

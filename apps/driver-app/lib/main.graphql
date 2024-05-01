@@ -1,0 +1,222 @@
+query Me($versionCode: Int!) {
+  driver(id: 1) {
+    mobileNumber
+    firstName
+    lastName
+    searchDistance
+    media {
+      address
+    }
+    softRejectionNote
+    status
+    currentOrders {
+      ...CurrentOrder
+      id
+      createdOn
+      expectedTimestamp
+      destinationArrivedTo
+      status
+      currency
+      costBest
+      costAfterCoupon
+      paidAmount
+      etaPickup
+      tipAmount
+
+      directions {
+        ...Point
+        lat
+        lng
+      }
+      points {
+        ...Point
+        lat
+        lng
+      }
+      service {
+        name
+      }
+      options {
+        id
+        name
+        icon
+      }
+      addresses
+      rider {
+        mobileNumber
+        firstName
+        lastName
+        media {
+          address
+        }
+        wallets {
+          currency
+          balance
+        }
+      }
+      driverLastSeenMessagesAt
+      conversations {
+        sentAt
+      }
+    }
+    wallets {
+      balance
+      currency
+    }
+    isWalletHidden
+    ...BasicProfile
+  }
+  requireUpdate(versionCode: $versionCode)
+}
+
+query AvailableOrders {
+  availableOrders {
+    ...AvailableOrder
+    id
+    status
+    currency
+    costBest
+    addresses
+    providerShare
+    distanceBest
+    durationBest
+    directions {
+      ...Point
+      lat
+      lng
+    }
+    options {
+      name
+      icon
+    }
+    service {
+      name
+    }
+    points {
+      ...Point
+      lat
+      lng
+    }
+  }
+}
+
+subscription OrderCreated {
+  orderCreated {
+    ...AvailableOrder
+    id
+    status
+    currency
+    costBest
+    addresses
+    providerShare
+    distanceBest
+    durationBest
+    directions {
+      ...Point
+      lat
+      lng
+    }
+    options {
+      name
+      icon
+    }
+    service {
+      name
+    }
+    points {
+      ...Point
+      lat
+      lng
+    }
+  }
+}
+
+subscription OrderRemoved {
+  orderRemoved {
+    ...AvailableOrder
+    id
+  }
+}
+
+subscription OrderUpdated {
+  orderUpdated {
+    id
+  }
+}
+
+mutation UpdateDriverLocation($point: PointInput!) {
+  updateDriversLocationNew(point: $point) {
+    ...AvailableOrder
+    id
+    status
+    currency
+    costBest
+    addresses
+    providerShare
+    distanceBest
+    durationBest
+    directions {
+      ...Point
+      lat
+      lng
+    }
+    options {
+      name
+      icon
+    }
+    service {
+      name
+    }
+    points {
+      ...Point
+      lat
+      lng
+    }
+  }
+}
+
+mutation UpdateOrderStatus(
+  $orderId: ID!
+  $status: OrderStatus
+  $cashPayment: Float
+  $destinationArrivedTo: Int
+) {
+  updateOneOrder(
+    input: {
+      id: $orderId
+      update: {
+        status: $status
+        paidAmount: $cashPayment
+        destinationArrivedTo: $destinationArrivedTo
+      }
+    }
+  ) {
+    ...CurrentOrder
+  }
+}
+
+mutation UpdateDriverStatus($status: DriverStatus!, $fcmId: String) {
+  updateOneDriver(
+    input: {
+      id: "1"
+      update: { status: $status, notificationPlayerId: $fcmId }
+    }
+  ) {
+    ...BasicProfile
+  }
+}
+
+mutation UpdateDriverFCMId($fcmId: String) {
+  updateOneDriver(
+    input: { id: "1", update: { notificationPlayerId: $fcmId } }
+  ) {
+    id
+  }
+}
+
+mutation UpdateDriverSearchDistance($distance: Int!) {
+  updateOneDriver(input: { id: "1", update: { searchDistance: $distance } }) {
+    id
+    searchDistance
+  }
+}

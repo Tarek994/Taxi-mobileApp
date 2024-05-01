@@ -1,0 +1,242 @@
+{
+  "statusOffline": "Disponibile",
+  "statusOnline": "Non disponibile",
+  "message_notification_permission_title": "Permesso di notifica",
+  "message_notification_permission_denined_message": "Il permesso di notifica è stato negato in precedenza. Per ricevere le nuove notifiche di ordine, è possibile abilitare il permesso dalle impostazioni dell'app.",
+  "action_ok": "OK",
+  "menu_logout": "Logout",
+  "menu_about": "Informazioni",
+  "menu_wallet": "Portafoglio",
+  "menu_trip_history": "Cronologia viaggi",
+  "menu_announcements": "Comunicazioni",
+  "message_unknown_error": "Errore sconosciuto",
+  "title_success": "Successo",
+  "driver_register_profile_submitted_message": "Il tuo profilo è stato inviato per l'approvazione dell'amministratore. Puoi controllare più tardi lo stato della tua richiesta.",
+  "driver_registration_approved_demo_mode": "Normalmente, in questa fase l'amministratore dovrebbe approvare la richiesta del conducente dal pannello di amministrazione. Tuttavia, per il bene della demo, il tuo profilo è stato automaticamente approvato ora ed è pronto per l'uso.",
+  "title_important": "IMPORTANTE!",
+  "cell_number": "Numero di cellulare",
+  "phone_number_empty": "Inserisci il numero di telefono",
+  "driver_registration_step_verify_number_title": "Verifica numero",
+  "driver_register_verification_code_textfield_hint": "Codice di verifica",
+  "driver_register_contact_details_title": "Dettagli di contatto",
+  "firstname": "Nome",
+  "lastname": "Cognome",
+  "email": "E-Mail",
+  "certificate_number": "Numero certificato",
+  "gender": "Genere",
+  "gender_male": "Maschio",
+  "gender_female": "Femmina",
+  "address": "Indirizzo",
+  "driver_register_ride_details_step_title": "Dettagli corsa",
+  "plate_number": "Numero targa",
+  "car_production_year": "Anno di produzione dell'auto",
+  "car_model": "Modello dell'auto",
+  "car_color": "Colore dell'auto",
+  "driver_register_step_payout_details_title": "Dettagli di pagamento",
+  "bank_name": "Nome della banca",
+  "account_number": "Numero di conto",
+  "bank_swift": "Codice swift",
+  "bankRoutingNumber": "Numero di routing bancario",
+  "driver_register_step_documents_title": "Carica documenti",
+  "driver_register_step_documents_heading": "Per verificare i documenti sopra elencati, richiediamo l'upload dei seguenti documenti:",
+  "driver_register_document_first": "1 - Carta d'Identità",
+  "driver_register_document_second": "2 - Patente di Guida",
+  "driver_register_document_third": "3 - Registrazione del veicolo",
+  "action_upload_document": "Carica Documento",
+  "trip_history_empty_state": "Nessun ordine passato è stato registrato.",
+  "wallet_empty_state_message": "Nessuna attività registrata.",
+  "enum_unknown": "Sconosciuto",
+  "top_up_sheet_pay_button": "Paga",
+  "loading": "CARICAMENTO",
+  "available_order_action_accept": "Accetta Ordine",
+  "order_status_action_received_cash": "Pagamento in contanti ricevuto",
+  "action_cancel": "Annulla",
+  "order_status_action_navigate": "Naviga",
+  "order_status_action_arrived": "Arrivato",
+  "order_status_action_start": "Inizia il Viaggio",
+  "order_status_action_finished": "Termina",
+  "message_cant_open_url": "Comando non supportato",
+  "enum_driver_recharge_type_bank_transfer": "Bonifico Bancario",
+  "enum_driver_recharge_type_gift": "Buono Regalo",
+  "enum_driver_recharge_type_in_app_payment": "Pagamento In-App",
+  "enum_driver_recharge_transaction_type_order_fee": "Tariffa d'Ordine",
+  "enum_driver_deduct_transaction_type_withdraw": "Prelievo",
+  "enum_driver_deduct_transaction_type_correction": "Correzione",
+  "enum_driver_deduct_transaction_type_commission": "Commissione",
+  "copyright_notice": "Diritti d'autore © {company}, tutti i diritti riservati.",
+  "@copyright_notice": {
+    "placeholders": {
+      "company": {}
+    }
+  },
+  "wallet_activities_heading": "Attività",
+  "form_required_field_error": "Campo Obbligatorio",
+  "button_report_issue": "Segnala un Problema",
+  "issue_submit_title": "Segnala un Problema",
+  "issue_subject_placeholder": "Oggetto",
+  "error_field_cant_be_empty": "Il campo non può essere vuoto",
+  "issue_description_placeholder": "Descrizione",
+  "complaint_submit_success_message": "La segnalazione è stata inviata. Attendere il contatto di un rappresentante del nostro servizio di assistenza in merito alla richiesta.",
+  "menu_earnings": "Guadagni",
+  "status_offline_description": "Entra online per vedere le richieste",
+  "status_online_description": "In ricerca di un viaggio",
+  "order_status_card_title_driver_accepted": "Il passeggero verrà informato una volta che avrai premuto Arrivato",
+  "order_status_card_title_arrived": "Il passeggero è stato informato",
+  "order_status_card_title_started": "Direzione destinazione",
+  "navigation_dialog_title": "Scegli un'app per la navigazione",
+  "action_ride_options": "Opzioni del viaggio",
+  "rider_expected_time_past": "Il passeggero ti aspettava da {minutes} minuti",
+  "@rider_expected_time_past": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "rider_expected_time_future": "Il passeggero ti aspetta tra {minutes} minuti",
+  "@rider_expected_time_future": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "order_payment_status_unpaid": "Il viaggio non è stato ancora pagato",
+  "order_payment_status_paid": "Il viaggio è stato pagato",
+  "action_ride_preferences": "Preferenze del passeggero",
+  "navigation_dialog_title_pickup_point": "Naviga al punto di ritiro",
+  "navigation_title_destination_point": "Naviga alla destinazione",
+  "rider_options_dialog_title": "Opzioni del viaggio",
+  "action_cancel_ride": "Annulla il viaggio",
+  "invoice_dialog_body": "Puoi anche ricevere il pagamento in contanti invece che online se tu e il passeggero siete d'accordo.",
+  "invoice_dialog_heading": "In attesa del pagamento del passeggero",
+  "invoice_dialog_title": "Informazioni di pagamento",
+  "invoice_item_tip": "Mancia",
+  "invoice_item_subtotal": "Subtotale",
+  "add_credit_dialog_title": "Aggiungi Credito",
+  "add_credit_dialog_select_payment_method": "Seleziona metodo di pagamento:",
+  "add_credit_dialog_choose_amount": "Scegli l'importo",
+  "order_details_payment_method_title": "Metodo di pagamento",
+  "order_payment_method_cash": "Contanti",
+  "order_payment_method_online": "Online",
+  "order_details_trip_information_title": "Informazioni sul viaggio",
+  "issue_submit_body": "Puoi segnalare qualsiasi problema avuto con il tuo viaggio. Ti aiuteremo con la questione entro una chiamata.",
+  "announcements_empty_state_title": "Nessun annuncio ancora!",
+  "announcements_empty_state_body": "Ti avviseremo quando arriveranno nuovi annunci.",
+  "empty_state_title_no_record": "Nessun dato trovato!",
+  "earnings_empty_state_body": "Ai criteri sopra indicati, non possiamo trovare alcun record.",
+  "action_continue": "Continua",
+  "terms_and_condition_first_part": "Ho letto e accetto i ",
+  "terms_and_conditions_clickable_part": "Termini e condizioni",
+  "onboarding_welcome": "Benvenuto!",
+  "action_login_signup": "Accedi / Registrati",
+  "action_complete_registration": "Completa la registrazione",
+  "action_edit_submission": "Modifica la presentazione",
+  "incomplete_registration_description": "Per favore completa la \n presentazione della tua registrazione",
+  "pending_review_registration_description": "La tua presentazione è in fase di revisione, \n Grazie per la pazienza.",
+  "hard_reject_registration": "La tua presentazione è stata completamente rifiutata!",
+  "soft_rejection_description": "C'è un problema con la presentazione",
+  "action_confirm_and_continue": "Conferma e continua",
+  "ride_preferences_title": "Preferenze di viaggio",
+  "action_back": "Indietro",
+  "title_logout": "Logout",
+  "logout_dialog_body": "Sei sicuro di voler uscire dall'applicazione?",
+  "action_delete_account": "Elimina Account",
+  "dialog_account_deletion_title": "Eliminazione Account",
+  "dialog_account_deletion_body": "Sei sicuro di voler eliminare il tuo account? Puoi accedere nuovamente entro 30 giorni per ripristinare l'account. Dopo questo periodo, i tuoi dati verranno completamente rimossi, compresi tutti i crediti rimanenti.",
+  "wallet_card_title": "Portafoglio {appName}",
+  "@wallet_card_title": {
+    "placeholders": {
+      "appName": {}
+    }
+  },
+  "order_status_canceled": "Annullato",
+  "driver_register_title": "Registrazione Autista",
+  "menu_profile": "Il mio profilo",
+  "profile_services_title": "Servizi:",
+  "profile_bank_information_title": "Informazioni bancarie",
+  "profile_vehicle_information_title": "Informazioni sul veicolo",
+  "profile_distance_traveled": "Distanza percorsa",
+  "profile_total_trips": "Totale viaggi",
+  "profile_rating": "Valutazione",
+  "register_number_title": "Inserisci il tuo numero di telefono",
+  "register_number_subtitle": "Ti invieremo un codice al tuo numero per continuare la registrazione",
+  "register_verify_code_title": "Inserisci il codice",
+  "register_verify_code_subtitle": "Abbiamo inviato un codice a {number}",
+  "@register_verify_code_subtitle": {
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "register_contact_details_title": "Inserisci i tuoi dettagli di contatto",
+  "register_payout_details_title": "Inserisci i tuoi dettagli di pagamento",
+  "register_ride_details_title": "Inserisci i dettagli del tuo viaggio",
+  "register_profile_photo_title": "Carica una foto del profilo",
+  "register_profile_photo_subtitle": "Il tuo volto dovrebbe essere riconoscibile nell'immagine caricata",
+  "action_add_photo": "Aggiungi foto",
+  "register_upload_documents_title": "Carica i documenti richiesti",
+  "register_upload_documents_subtitle": "Per verificare la tua identità e rispettare le normative, dovrai caricare i seguenti documenti: \n1-Documento d'identità\n2-Patente di guida\n3-Documento di proprietà del veicolo",
+  "register_step_phone_number": "Numero di telefono",
+  "register_step_verify_number": "Verifica il Numero",
+  "register_step_contact_details": "Dettagli di contatto",
+  "register_step_ride_details": "Dettagli del viaggio",
+  "register_step_payout_details": "Dettagli di pagamento",
+  "register_step_upload_documents": "Carica i documenti",
+  "profile_uploaded_documents_title": "Documenti caricati",
+  "error_cancel_not_allowed": "L'annullamento non è consentito per un viaggio già avviato.",
+  "distanceMeters": "{distance} m",
+  "@distanceMeters": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceFeet": "{distance} ft",
+  "@distanceFeet": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceMiles": "{distance} mi",
+  "@distanceMiles": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceAway": "{distance} away",
+  "@distanceAway": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "mapSettings": "Map Settings",
+  "languageSettings": "Language Settings",
+  "orderStatusCardTitleMultipleDestinations": "Heading to {destinationIndex}st destination",
+  "@orderStatusCardTitleMultipleDestinations": {
+    "placeholders": {
+      "destinationIndex": {
+        "type": "int"
+      }
+    }
+  },
+  "actionArrivedToDestination": "Arrived to {destinationIndex}st destination",
+  "@actionArrivedToDestination": {
+    "placeholders": {
+      "destinationIndex": {
+        "type": "int"
+      }
+    }
+  }
+}

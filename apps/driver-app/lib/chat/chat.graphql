@@ -1,0 +1,55 @@
+query GetMessages {
+  driver(id: "1") {
+    currentOrders {
+      id
+      rider {
+        ...ChatRider
+        id
+        firstName
+        lastName
+        media {
+          address
+        }
+        mobileNumber
+      }
+      driver {
+        ...ChatDriver
+        id
+        firstName
+        lastName
+        media {
+          address
+        }
+      }
+      conversations(sorting: { field: id, direction: DESC }) {
+        ...ChatMessage
+        id
+        content
+        sentByDriver
+      }
+    }
+  }
+}
+mutation SendMessage($requestId: ID!, $content: String!) {
+  createOneOrderMessage(
+    input: { orderMessage: { requestId: $requestId, content: $content } }
+  ) {
+    ...ChatMessage
+    id
+    content
+    sentByDriver
+  }
+}
+
+mutation UpdateLastSeenMessagesAt($requestId: ID!) {
+  updateLastSeenMessagesAt(orderId: $requestId)
+}
+
+subscription NewMessageReceived {
+  newMessageReceived {
+    ...ChatMessage
+    id
+    content
+    sentByDriver
+  }
+}

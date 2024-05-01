@@ -1,0 +1,31 @@
+<nz-page-header [nzGhost]="false" nzBackIcon [nzTitle]="'cancelReasons.title' | translate"
+  [nzSubtitle]="'cancelReasons.subtitle' | translate">
+  <nz-page-header-extra>
+    <button nz-button nzType="primary" routerLink="new"><i nz-icon nzType="plus"></i>{{ 'profile.add' | translate
+      }}</button>
+  </nz-page-header-extra>
+  <nz-page-header-content>
+    <nz-table #table nzShowSizeChanger [nzFrontPagination]="false"
+      *ngIf="(query | async)?.data?.orderCancelReasons?.nodes as orderCancelReasons" [nzData]="orderCancelReasons"
+      [nzTotal]="orderCancelReasons.length" nzBordered>
+      <thead>
+        <tr>
+          <th>{{ 'profile.name' | translate }}</th>
+          <th>{{'profile.userType' | translate }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of table.data" [routerLink]="'view/' + data.id" class="group cursor-pointer">
+          <td>
+            <span class="mr-2">{{ data.title }}</span>
+            <nz-tag *ngIf="data.isEnabled == false" nzColor="error">{{'profile.disabled' |
+              translate}}</nz-tag>
+          </td>
+          <td>
+            {{ data.userType }}
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </nz-page-header-content>
+</nz-page-header>
