@@ -1,6 +1,6 @@
 {
-    "name": "Ridy",
-    "short_name": "Ridy",
+    "name": "lolo",
+    "short_name": "lolo",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
@@ -11,11 +11,11 @@
     "related_applications": [
       {
         "platform": "play",
-        "url": "https://play.google.com/store/apps/details?id=com.ridy.taxi.rider",
-        "id": "com.ridy.taxi.rider"
+        "url": "https://play.google.com/store/apps/details?id=com.lolo.taxi.rider",
+        "id": "com.lolo.taxi.rider"
       }, {
         "platform": "itunes",
-        "url": "https://apps.apple.com/us/app/ridy-flutter/id1592809954"
+        "url": "https://apps.apple.com/us/app/lolo-flutter/id1592809954"
       }
     ],
     "icons": [

@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:ridy/map/map_view.dart';
+import 'package:lolo/map/map_view.dart';
 import 'package:latlong2/latlong.dart' as latlong;
 
 class GoogleMapsController implements MapViewController {

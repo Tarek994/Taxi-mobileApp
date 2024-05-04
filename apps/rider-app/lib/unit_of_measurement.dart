@@ -1,7 +1,7 @@
 import 'package:client_shared/config.dart';
 import 'package:client_shared/unit_of_measurement.dart';
 import 'package:flutter/material.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 String distanceToString(BuildContext context, double distance) {
   if (unitOfMeasurement == UnitOfMeasurement.metric) {

@@ -9,13 +9,13 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/geocoding.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:hive/hive.dart';
-import 'package:ridy/config.dart';
-import 'package:ridy/location_selection/welcome_card/place_search_sheet_view.dart';
-import 'package:ridy/main/bloc/current_location_cubit.dart';
+import 'package:lolo/config.dart';
+import 'package:lolo/location_selection/welcome_card/place_search_sheet_view.dart';
+import 'package:lolo/main/bloc/current_location_cubit.dart';
 import 'package:geolocator/geolocator.dart' as geo;
 import 'package:latlong2/latlong.dart' as latlng;
-import 'package:ridy/main/order.graphql.dart';
-import 'package:ridy/schema.gql.dart';
+import 'package:lolo/main/order.graphql.dart';
+import 'package:lolo/schema.gql.dart';
 
 import '../bloc/main_bloc.dart';
 import 'package:flutter/material.dart';

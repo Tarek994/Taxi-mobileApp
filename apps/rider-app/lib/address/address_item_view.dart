@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/address/addresses.graphql.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/address/addresses.graphql.dart';
 
 import 'package:client_shared/theme/theme.dart';
-import 'package:ridy/schema.gql.dart';
+import 'package:lolo/schema.gql.dart';
 
 class AddressItemView extends StatelessWidget {
   final Enum$RiderAddressType type;

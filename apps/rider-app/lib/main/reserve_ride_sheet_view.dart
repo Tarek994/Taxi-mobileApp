@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:client_shared/components/sheet_title_view.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class ReserveRideSheetView extends StatefulWidget {
   const ReserveRideSheetView({Key? key}) : super(key: key);

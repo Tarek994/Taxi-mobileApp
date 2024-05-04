@@ -19,17 +19,17 @@ targets:
               type: DateTime
               fromJsonFunctionName: fromGraphQLDateTimeToDartDateTime
               toJsonFunctionName: fromDartDateTimeToGraphQLDateTime
-              import: package:ridy/graphql/scalars/datetime.dart
+              import: package:lolo/graphql/scalars/datetime.dart
             Timestamp:
               type: DateTime
               fromJsonFunctionName: fromGraphQLTimestampToDartDateTime
               toJsonFunctionName: fromDartDateTimeToGraphQLTimestamp
-              import: package:ridy/graphql/scalars/timestamp.dart
+              import: package:lolo/graphql/scalars/timestamp.dart
             ConnectionCursor:
               type: String
               fromJsonFunctionName: fromGraphQLConnectionCursorToDartString
               toJsonFunctionName: fromDartStringToGraphQLConnectionCursor
-              import: package:ridy/graphql/scalars/connection_cursor.dart
+              import: package:lolo/graphql/scalars/connection_cursor.dart
       # json_serializable:
       #   options:
       #     include_if_null: false

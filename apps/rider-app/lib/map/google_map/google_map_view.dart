@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:google_api_headers/google_api_headers.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_webservice/geocoding.dart';
-import 'package:ridy/config.dart';
-import 'package:ridy/graphql/fragments/active-order.fragment.graphql.dart';
-import 'package:ridy/location_selection/welcome_card/place_search_sheet_view.dart';
-import 'package:ridy/map/google_map/google_map_controller.dart';
-import 'package:ridy/map/map_view.dart';
+import 'package:lolo/config.dart';
+import 'package:lolo/graphql/fragments/active-order.fragment.graphql.dart';
+import 'package:lolo/location_selection/welcome_card/place_search_sheet_view.dart';
+import 'package:lolo/map/google_map/google_map_controller.dart';
+import 'package:lolo/map/map_view.dart';
 import 'package:latlong2/latlong.dart' as latlong;
 
 class GoogleMapView extends StatefulWidget {

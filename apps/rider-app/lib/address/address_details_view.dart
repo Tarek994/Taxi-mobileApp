@@ -1,17 +1,17 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:ridy/address/address_item_view.dart';
+import 'package:lolo/address/address_item_view.dart';
 import 'package:client_shared/components/back_button.dart';
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/address/addresses.graphql.dart';
-import 'package:ridy/location_selection/welcome_card/place_confirm_sheet_view.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/address/addresses.graphql.dart';
+import 'package:lolo/location_selection/welcome_card/place_confirm_sheet_view.dart';
 
-import 'package:ridy/location_selection/welcome_card/place_search_sheet_view.dart';
+import 'package:lolo/location_selection/welcome_card/place_search_sheet_view.dart';
 import 'package:client_shared/theme/theme.dart';
-import 'package:ridy/map/map_view.dart';
-import 'package:ridy/query_result_view.dart';
-import 'package:ridy/schema.gql.dart';
+import 'package:lolo/map/map_view.dart';
+import 'package:lolo/query_result_view.dart';
+import 'package:lolo/schema.gql.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 

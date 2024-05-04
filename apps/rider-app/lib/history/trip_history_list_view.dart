@@ -2,11 +2,11 @@ import 'package:client_shared/components/empty_state_card_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:client_shared/components/back_button.dart';
-import 'package:ridy/history/history.graphql.dart';
-import 'package:ridy/history/trip_history_details_view.dart';
-import 'package:ridy/schema.gql.dart';
+import 'package:lolo/history/history.graphql.dart';
+import 'package:lolo/history/trip_history_details_view.dart';
+import 'package:lolo/schema.gql.dart';
 import '../query_result_view.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 import 'package:client_shared/components/trip_history_item_view.dart';
 
 class TripHistoryListView extends StatefulWidget {

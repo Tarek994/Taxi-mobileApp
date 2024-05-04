@@ -3,9 +3,9 @@ import 'package:client_shared/theme/theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
-import 'package:ridy/gen/assets.gen.dart';
-import 'package:ridy/settings/language_settings.dart';
-import 'package:ridy/settings/map_settings.dart';
+import 'package:lolo/gen/assets.gen.dart';
+import 'package:lolo/settings/language_settings.dart';
+import 'package:lolo/settings/map_settings.dart';
 
 import '../l10n/messages.dart';
 

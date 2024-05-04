@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692227431556",
+    "project_id": "lolo-3da0a",
+    "storage_bucket": "lolo-3da0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692227431556:android:572e4bcd058be80c1f36d1",
+        "android_client_info": {
+          "package_name": "com.lolo.taxi.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvj1KLS-UCESDZJ3sRoMpE3CnHnUR3R1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692227431556:android:e42c8a764e07e5fe1f36d1",
+        "android_client_info": {
+          "package_name": "com.ridy.taxi.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvj1KLS-UCESDZJ3sRoMpE3CnHnUR3R1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

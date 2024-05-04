@@ -5,7 +5,7 @@ import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class OnboardingLanguage extends StatefulWidget {
   final Function() onNextClicked;

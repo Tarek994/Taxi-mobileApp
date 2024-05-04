@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:ridy/config.dart';
-import 'package:ridy/main/bloc/jwt_cubit.dart';
+import 'package:lolo/config.dart';
+import 'package:lolo/main/bloc/jwt_cubit.dart';
 
 ValueNotifier<GraphQLClient> clientFor(
     {required String uri, required String subscriptionUri, String? jwtToken}) {

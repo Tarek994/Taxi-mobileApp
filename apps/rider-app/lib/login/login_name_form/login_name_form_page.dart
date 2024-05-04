@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/login/bloc/login_bloc.dart';
-import 'package:ridy/login/bloc/login_event.dart';
-import 'package:ridy/profile/profile.graphql.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/login/bloc/login_bloc.dart';
+import 'package:lolo/login/bloc/login_event.dart';
+import 'package:lolo/profile/profile.graphql.dart';
+import 'package:lolo/query_result_view.dart';
 
 class LoginNameFormPage extends StatefulWidget {
   const LoginNameFormPage({Key? key}) : super(key: key);

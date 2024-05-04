@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class WelcomeCardAddressView extends StatelessWidget {
   const WelcomeCardAddressView({Key? key}) : super(key: key);

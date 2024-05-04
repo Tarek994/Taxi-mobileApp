@@ -8,12 +8,12 @@ import 'package:flutter_map_animations/flutter_map_animations.dart';
 import 'package:flutter_map_location_marker/flutter_map_location_marker.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:osm_nominatim/osm_nominatim.dart';
-import 'package:ridy/config.dart';
-import 'package:ridy/graphql/fragments/active-order.fragment.graphql.dart';
-import 'package:ridy/location_selection/welcome_card/place_search_sheet_view.dart';
-import 'package:ridy/main/bloc/main_bloc.dart';
-import 'package:ridy/map/flutter_map/flutter_map_controller.dart';
-import 'package:ridy/map/map_view.dart';
+import 'package:lolo/config.dart';
+import 'package:lolo/graphql/fragments/active-order.fragment.graphql.dart';
+import 'package:lolo/location_selection/welcome_card/place_search_sheet_view.dart';
+import 'package:lolo/main/bloc/main_bloc.dart';
+import 'package:lolo/map/flutter_map/flutter_map_controller.dart';
+import 'package:lolo/map/map_view.dart';
 
 class FlutterMapView extends StatefulWidget {
   final Function(FullLocation?)? onMapMoved;

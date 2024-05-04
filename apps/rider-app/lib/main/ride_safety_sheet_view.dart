@@ -4,11 +4,11 @@ import 'package:client_shared/components/sheet_title_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:intl/intl.dart';
-import 'package:ridy/main/order.graphql.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/main/order.graphql.dart';
+import 'package:lolo/query_result_view.dart';
 import 'package:share_plus/share_plus.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 import '../graphql/fragments/active-order.fragment.graphql.dart';
 

@@ -6,8 +6,8 @@
 	<string>app-store</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.ridy.taxi.driver</key>
-		<string>match AppStore com.ridy.taxi.driver</string>
+		<key>com.lolo.taxi.driver</key>
+		<string>match AppStore com.lolo.taxi.driver</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>iOS Distribution</string>

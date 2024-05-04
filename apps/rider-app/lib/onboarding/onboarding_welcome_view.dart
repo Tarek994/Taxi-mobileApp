@@ -3,7 +3,7 @@ import 'package:client_shared/theme/theme.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class OnboardingWelcome extends StatelessWidget {
   final Function() onNextClicked;

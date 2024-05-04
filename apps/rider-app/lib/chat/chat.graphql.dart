@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart' as widgets;
 import 'package:gql/ast.dart';
 import 'package:graphql/client.dart' as graphql;
 import 'package:graphql_flutter/graphql_flutter.dart' as graphql_flutter;
-import 'package:ridy/graphql/scalars/timestamp.dart';
+import 'package:lolo/graphql/scalars/timestamp.dart';
 
 class Query$GetMessages {
   Query$GetMessages({required this.currentOrder});

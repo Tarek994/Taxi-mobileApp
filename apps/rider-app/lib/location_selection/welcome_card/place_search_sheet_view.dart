@@ -9,9 +9,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:osm_nominatim/osm_nominatim.dart';
-import 'package:ridy/location_selection/welcome_card/place_confirm_sheet_view.dart';
+import 'package:lolo/location_selection/welcome_card/place_confirm_sheet_view.dart';
 import 'package:client_shared/theme/theme.dart';
-import 'package:ridy/main/bloc/current_location_cubit.dart';
+import 'package:lolo/main/bloc/current_location_cubit.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:google_maps_webservice/places.dart';
@@ -20,7 +20,7 @@ import 'package:latlong2/latlong.dart' as lat_lng;
 import 'package:collection/collection.dart';
 
 import '../../config.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class PlaceSearchSheetView extends StatelessWidget {
   final FullLocation? currentLocation;

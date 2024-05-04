@@ -8,15 +8,15 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/login/bloc/login_bloc.dart';
-import 'package:ridy/login/bloc/login_event.dart';
-import 'package:ridy/login/bloc/login_loading_cubit.dart';
-import 'package:ridy/login/login.graphql.dart';
-import 'package:ridy/login/login_phone_number/bloc/login_phone_number_bloc.dart';
-import 'package:ridy/login/login_phone_number/bloc/login_phone_number_event.dart';
-import 'package:ridy/login/login_phone_number/bloc/login_phone_number_state.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/login/bloc/login_bloc.dart';
+import 'package:lolo/login/bloc/login_event.dart';
+import 'package:lolo/login/bloc/login_loading_cubit.dart';
+import 'package:lolo/login/login.graphql.dart';
+import 'package:lolo/login/login_phone_number/bloc/login_phone_number_bloc.dart';
+import 'package:lolo/login/login_phone_number/bloc/login_phone_number_event.dart';
+import 'package:lolo/login/login_phone_number/bloc/login_phone_number_state.dart';
+import 'package:lolo/query_result_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginNumberPage extends StatefulWidget {

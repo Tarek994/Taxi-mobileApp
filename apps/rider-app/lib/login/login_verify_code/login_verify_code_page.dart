@@ -1,16 +1,16 @@
 import 'package:client_shared/components/ridy_banner.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 import 'package:pinput/pinput.dart';
-import 'package:ridy/login/bloc/login_loading_cubit.dart';
-import 'package:ridy/login/bloc/login_bloc.dart';
-import 'package:ridy/login/bloc/login_event.dart';
-import 'package:ridy/login/login.graphql.dart';
-import 'package:ridy/login/login_verify_code/bloc/last_send_code_at_cubit.dart';
-import 'package:ridy/login/login_verify_code/bloc/login_verify_code_bloc.dart';
-import 'package:ridy/login/login_verify_code/bloc/login_verify_code_event.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/login/bloc/login_loading_cubit.dart';
+import 'package:lolo/login/bloc/login_bloc.dart';
+import 'package:lolo/login/bloc/login_event.dart';
+import 'package:lolo/login/login.graphql.dart';
+import 'package:lolo/login/login_verify_code/bloc/last_send_code_at_cubit.dart';
+import 'package:lolo/login/login_verify_code/bloc/login_verify_code_bloc.dart';
+import 'package:lolo/login/login_verify_code/bloc/login_verify_code_event.dart';
+import 'package:lolo/query_result_view.dart';
 import 'package:timeago_flutter/timeago_flutter.dart';
 
 import 'bloc/login_verify_code_state.dart';

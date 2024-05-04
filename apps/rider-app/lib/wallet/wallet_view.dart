@@ -7,10 +7,10 @@ import 'package:client_shared/wallet/wallet_activity_item_view.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:lifecycle/lifecycle.dart';
 
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/schema.gql.dart';
-import 'package:ridy/wallet/add_credit_sheet_view.dart';
-import 'package:ridy/wallet/wallet.graphql.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/schema.gql.dart';
+import 'package:lolo/wallet/add_credit_sheet_view.dart';
+import 'package:lolo/wallet/wallet.graphql.dart';
 import '../query_result_view.dart';
 
 class WalletView extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_animations/flutter_map_animations.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:ridy/map/map_view.dart';
+import 'package:lolo/map/map_view.dart';
 
 class FlutterMapController implements MapViewController {
   final AnimatedMapController mapController;

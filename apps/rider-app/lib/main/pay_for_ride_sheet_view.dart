@@ -4,17 +4,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:client_shared/components/ridy_sheet_view.dart';
 import 'package:client_shared/components/sheet_title_view.dart';
-import 'package:ridy/config.dart';
+import 'package:lolo/config.dart';
 import 'package:client_shared/theme/theme.dart';
-import 'package:ridy/graphql/fragments/active-order.fragment.graphql.dart';
-import 'package:ridy/query_result_view.dart';
-import 'package:ridy/schema.gql.dart';
-import 'package:ridy/wallet/wallet.graphql.dart';
+import 'package:lolo/graphql/fragments/active-order.fragment.graphql.dart';
+import 'package:lolo/query_result_view.dart';
+import 'package:lolo/schema.gql.dart';
+import 'package:lolo/wallet/wallet.graphql.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:client_shared/wallet/payment_method_item.dart';
 import 'package:client_shared/wallet/money_presets_group.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 import 'package:intl/intl.dart';
 
 class PayForRideSheetView extends StatefulWidget {

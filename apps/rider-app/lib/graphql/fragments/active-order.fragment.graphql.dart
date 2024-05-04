@@ -1,7 +1,7 @@
 import '../../schema.gql.dart';
 import 'package:gql/ast.dart';
 import 'package:graphql/client.dart' as graphql;
-import 'package:ridy/graphql/scalars/timestamp.dart';
+import 'package:lolo/graphql/scalars/timestamp.dart';
 
 class Fragment$Point {
   Fragment$Point({

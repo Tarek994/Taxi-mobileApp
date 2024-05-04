@@ -5,8 +5,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:ridy/gen/assets.gen.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/gen/assets.gen.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class MapSettingsPage extends StatefulWidget {
   const MapSettingsPage({Key? key}) : super(key: key);

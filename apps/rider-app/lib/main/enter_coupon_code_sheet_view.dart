@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:client_shared/components/sheet_title_view.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class EnterCouponCodeSheetView extends StatefulWidget {
   const EnterCouponCodeSheetView({Key? key}) : super(key: key);

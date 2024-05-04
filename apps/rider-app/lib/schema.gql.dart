@@ -1,5 +1,5 @@
-import 'package:ridy/graphql/scalars/connection_cursor.dart';
-import 'package:ridy/graphql/scalars/datetime.dart';
+import 'package:lolo/graphql/scalars/connection_cursor.dart';
+import 'package:lolo/graphql/scalars/datetime.dart';
 
 class Input$ServiceOptionFilter {
   factory Input$ServiceOptionFilter({

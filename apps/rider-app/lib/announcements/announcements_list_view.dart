@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:client_shared/components/back_button.dart';
 import 'package:client_shared/theme/theme.dart';
-import 'package:ridy/announcements/announcements.graphql.dart';
+import 'package:lolo/announcements/announcements.graphql.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 import 'package:intl/intl.dart';
 import 'package:client_shared/components/empty_state_card_view.dart';

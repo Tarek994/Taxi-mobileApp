@@ -1,11 +1,11 @@
 import 'package:client_shared/components/ridy_sheet_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/gen/assets.gen.dart';
-import 'package:ridy/main/order.graphql.dart';
+import 'package:lolo/gen/assets.gen.dart';
+import 'package:lolo/main/order.graphql.dart';
 
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/query_result_view.dart';
 import '../../main/bloc/main_bloc.dart';
 
 class LookingSheetView extends StatelessWidget {

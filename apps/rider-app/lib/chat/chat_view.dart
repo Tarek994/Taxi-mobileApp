@@ -4,17 +4,17 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_chat_ui/flutter_chat_ui.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:ridy/chat/chat.graphql.dart';
-import 'package:ridy/chat/chat_cubit.dart';
+import 'package:lolo/chat/chat.graphql.dart';
+import 'package:lolo/chat/chat_cubit.dart';
 import 'package:client_shared/components/back_button.dart';
-import 'package:ridy/config.dart';
-import 'package:ridy/graphql/fragments/active-order.fragment.graphql.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/config.dart';
+import 'package:lolo/graphql/fragments/active-order.fragment.graphql.dart';
+import 'package:lolo/query_result_view.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 import 'package:client_shared/theme/theme.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class ChatView extends StatelessWidget {
   const ChatView({Key? key}) : super(key: key);

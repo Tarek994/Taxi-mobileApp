@@ -188,8 +188,8 @@ mixin ThemeYellow {
             ))),
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-            primary: primaryColors,
-            onPrimary: Colors.white,
+            // primary: primaryColors,
+            // onPrimary: Colors.white,
             textStyle: const TextStyle(
                 fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white),
             shadowColor: ThemeYellow.neutralColors.shade50,

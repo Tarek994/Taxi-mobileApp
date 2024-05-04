@@ -4,12 +4,12 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:client_shared/components/ridy_sheet_view.dart';
 import 'package:client_shared/components/sheet_title_view.dart';
-import 'package:ridy/main/bloc/main_bloc.dart';
+import 'package:lolo/main/bloc/main_bloc.dart';
 import 'package:client_shared/theme/theme.dart';
-import 'package:ridy/main/order.graphql.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/main/order.graphql.dart';
+import 'package:lolo/query_result_view.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class RateRideSheetView extends StatefulWidget {
   const RateRideSheetView({Key? key}) : super(key: key);

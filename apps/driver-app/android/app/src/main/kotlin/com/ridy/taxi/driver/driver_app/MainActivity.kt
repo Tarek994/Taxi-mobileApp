@@ -1,4 +1,4 @@
-package com.ridy.taxi.driver.driver_app
+package com.lolo.taxi.driver.driver_app
 
 import android.app.NotificationChannel
 import android.app.NotificationManager

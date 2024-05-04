@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/address/address_details_view.dart';
-import 'package:ridy/address/address_item_view.dart';
+import 'package:lolo/address/address_details_view.dart';
+import 'package:lolo/address/address_item_view.dart';
 import 'package:client_shared/components/back_button.dart';
-import 'package:ridy/address/addresses.graphql.dart';
-import 'package:ridy/main/bloc/current_location_cubit.dart';
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/schema.gql.dart';
+import 'package:lolo/address/addresses.graphql.dart';
+import 'package:lolo/main/bloc/current_location_cubit.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/schema.gql.dart';
 
 import '../query_result_view.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';

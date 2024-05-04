@@ -9,7 +9,7 @@ import 'package:flutter_map_animations/flutter_map_animations.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:osm_nominatim/osm_nominatim.dart';
-import 'package:ridy/main/order.graphql.dart';
+import 'package:lolo/main/order.graphql.dart';
 import '../../location_selection/location_selection_parent_view.dart';
 import '../../location_selection/welcome_card/place_search_sheet_view.dart';
 import '../bloc/current_location_cubit.dart';

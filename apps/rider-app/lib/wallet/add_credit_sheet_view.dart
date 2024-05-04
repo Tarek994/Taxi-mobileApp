@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:client_shared/components/sheet_title_view.dart';
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/query_result_view.dart';
-import 'package:ridy/schema.gql.dart';
-import 'package:ridy/wallet/wallet.graphql.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/query_result_view.dart';
+import 'package:lolo/schema.gql.dart';
+import 'package:lolo/wallet/wallet.graphql.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:client_shared/wallet/payment_method_item.dart';
 import 'package:client_shared/wallet/money_presets_group.dart';

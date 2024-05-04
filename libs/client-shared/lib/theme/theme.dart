@@ -4,10 +4,10 @@ import 'package:google_fonts/google_fonts.dart';
 
 mixin CustomTheme {
   static const MaterialColor neutralColors = MaterialColor(
-    0xff6f7d98, // 0% comes in here, this will be color picked if no shade is selected when defining a Color property which doesn’t require a swatch.
+    0xfce61f98, // 0% comes in here, this will be color picked if no shade is selected when defining a Color property which doesn’t require a swatch.
     <int, Color>{
       50: Color(0xfff2f5fa), //10%
-      100: Color(0xffe9ecf5), //20%
+      100: Color(0xffe9ecf5), //20%  fce61f
       200: Color(0xffdfe4ef), //30%
       300: Color(0xffc2cce0), //40%
       400: Color(0xffa9b5cc), //50%
@@ -192,8 +192,8 @@ mixin CustomTheme {
             ))),
     elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-            primary: primaryColors,
-            onPrimary: Colors.white,
+            // primary: primaryColors,
+            // onPrimary: Colors.white,
             textStyle: const TextStyle(
                 fontSize: 16, fontWeight: FontWeight.w700, color: Colors.white),
             shadowColor: CustomTheme.neutralColors.shade50,

@@ -7,10 +7,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:ridy/graphql/fragments/active-order.fragment.graphql.dart';
-import 'package:ridy/location_selection/welcome_card/place_search_sheet_view.dart';
-import 'package:ridy/map/flutter_map/flutter_map_view.dart';
-import 'package:ridy/map/google_map/google_map_view.dart';
+import 'package:lolo/graphql/fragments/active-order.fragment.graphql.dart';
+import 'package:lolo/location_selection/welcome_card/place_search_sheet_view.dart';
+import 'package:lolo/map/flutter_map/flutter_map_view.dart';
+import 'package:lolo/map/google_map/google_map_view.dart';
 
 class MapView extends StatefulWidget {
   final MapViewMode mode;

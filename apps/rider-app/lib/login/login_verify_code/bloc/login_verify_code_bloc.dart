@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/login/firebase_auth_repository.dart';
+import 'package:lolo/login/firebase_auth_repository.dart';
 
 import 'login_verify_code_event.dart';
 import 'login_verify_code_state.dart';

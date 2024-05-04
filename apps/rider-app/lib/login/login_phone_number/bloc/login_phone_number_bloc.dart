@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ridy/login/firebase_auth_repository.dart';
-import 'package:ridy/login/login_phone_number/bloc/login_phone_number_event.dart';
-import 'package:ridy/login/login_phone_number/bloc/login_phone_number_state.dart';
+import 'package:lolo/login/firebase_auth_repository.dart';
+import 'package:lolo/login/login_phone_number/bloc/login_phone_number_event.dart';
+import 'package:lolo/login/login_phone_number/bloc/login_phone_number_state.dart';
 
 class LoginPhoneNumberBloc
     extends Bloc<LoginPhoneNumberEvent, LoginPhoneNumberState> {

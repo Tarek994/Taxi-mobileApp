@@ -2,7 +2,7 @@ import 'package:client_shared/components/back_button.dart';
 import 'package:client_shared/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:ridy/onboarding/onboarding_language_view.dart';
+import 'package:lolo/onboarding/onboarding_language_view.dart';
 
 import '../l10n/messages.dart';
 

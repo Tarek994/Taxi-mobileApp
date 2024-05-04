@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ridy/location_selection/welcome_card/place_search_sheet_view.dart';
+import 'package:lolo/location_selection/welcome_card/place_search_sheet_view.dart';
 
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/map/map_view.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/map/map_view.dart';
 
 class PlaceConfirmSheetView extends StatefulWidget {
   final FullLocation? defaultLocation;

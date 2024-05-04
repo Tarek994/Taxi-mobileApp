@@ -2,10 +2,10 @@ import 'package:client_shared/components/back_button.dart';
 import 'package:client_shared/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:ridy/history/history.graphql.dart';
+import 'package:lolo/history/history.graphql.dart';
 
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/query_result_view.dart';
 
 class SubmitComplaintView extends StatefulWidget {
   final String orderId;

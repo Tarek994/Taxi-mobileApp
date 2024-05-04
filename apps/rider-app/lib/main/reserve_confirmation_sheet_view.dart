@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:client_shared/components/sheet_title_view.dart';
-import 'package:ridy/gen/assets.gen.dart';
+import 'package:lolo/gen/assets.gen.dart';
 
-import 'package:ridy/l10n/messages.dart';
+import 'package:lolo/l10n/messages.dart';
 
 class ReserveConfirmationSheetView extends StatelessWidget {
   const ReserveConfirmationSheetView({Key? key}) : super(key: key);

@@ -5,12 +5,12 @@ import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:client_shared/components/empty_state_card_view.dart';
 import 'package:client_shared/components/back_button.dart';
 import 'package:intl/intl.dart';
-import 'package:ridy/history/history.graphql.dart';
-import 'package:ridy/query_result_view.dart';
+import 'package:lolo/history/history.graphql.dart';
+import 'package:lolo/query_result_view.dart';
 import 'package:client_shared/theme/theme.dart';
 
-import 'package:ridy/l10n/messages.dart';
-import 'package:ridy/reservations/resrvations.graphql.dart';
+import 'package:lolo/l10n/messages.dart';
+import 'package:lolo/reservations/resrvations.graphql.dart';
 
 class ReservationListView extends StatelessWidget {
   const ReservationListView({Key? key}) : super(key: key);

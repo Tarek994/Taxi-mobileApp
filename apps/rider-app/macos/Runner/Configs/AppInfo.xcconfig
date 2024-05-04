@@ -8,7 +8,7 @@
 PRODUCT_NAME = rider_app
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.ridy.taxi.rider.riderApp
+PRODUCT_BUNDLE_IDENTIFIER = com.lolo.taxi.rider.riderApp
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2021 com.ridy.taxi.rider. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2021 com.lolo.taxi.rider. All rights reserved.
