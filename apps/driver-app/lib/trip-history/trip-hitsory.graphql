@@ -1,0 +1,57 @@
+query History {
+  orders(sorting: { field: id, direction: DESC }, paging: { first: 20 }) {
+    edges {
+      node {
+        id
+        status
+        createdOn
+        currency
+        costAfterCoupon
+        providerShare
+        service {
+          name
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+      startCursor
+      hasPreviousPage
+    }
+  }
+}
+
+query GetOrderDetails($id: ID!) {
+  order(id: $id) {
+    points {
+      ...Point
+      lat
+      lng
+    }
+    addresses
+    costBest
+    currency
+    startTimestamp
+    finishTimestamp
+    distanceBest
+    durationBest
+    paymentGatewayId
+    expectedTimestamp
+  }
+}
+
+mutation SubmitComplaint($id: ID!, $subject: String!, $content: String!) {
+  createOneComplaint(
+    input: {
+      complaint: {
+        requestId: $id
+        requestedByDriver: false
+        subject: $subject
+        content: $content
+      }
+    }
+  ) {
+    id
+  }
+}

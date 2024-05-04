@@ -1,0 +1,242 @@
+{
+  "statusOffline": "Mergi Online",
+  "statusOnline": "Mergi Offline",
+  "message_notification_permission_title": "Permisiune de notificare",
+  "message_notification_permission_denined_message": "Permisiunea de notificare a fost refuzată anterior. Pentru a primi notificări de comenzi noi, puteți activa permisiunea din setările aplicației.",
+  "action_ok": "OK",
+  "menu_logout": "Delogare",
+  "menu_about": "Despre",
+  "menu_wallet": "Portofel",
+  "menu_trip_history": "Istoric de călătorii",
+  "menu_announcements": "Anunțuri",
+  "message_unknown_error": "Eroare necunoscută",
+  "title_success": "Succes",
+  "driver_register_profile_submitted_message": "Profilul dvs. este trimis pentru aprobarea administratorului. Puteți verifica mai târziu starea depunerii dvs.",
+  "driver_registration_approved_demo_mode": "De obicei, la acest pas, administratorul ar trebui să aprobe depunerea șoferului din Panoul de administrare. Cu toate acestea, în scopul demonstrării, profilul dvs. este aprobat automat acum și este gata de utilizat.",
+  "title_important": "IMPORTANT!",
+  "cell_number": "Număr de telefon mobil",
+  "phone_number_empty": "Vă rugăm să introduceți numărul de telefon",
+  "driver_registration_step_verify_number_title": "Verificați numărul",
+  "driver_register_verification_code_textfield_hint": "Cod de verificare",
+  "driver_register_contact_details_title": "Detalii de contact",
+  "firstname": "Prenume",
+  "lastname": "Nume de familie",
+  "email": "E-Mail",
+  "certificate_number": "Numărul certificatului",
+  "gender": "Sex",
+  "gender_male": "Bărbat",
+  "gender_female": "Femeie",
+  "address": "Adresă",
+  "driver_register_ride_details_step_title": "Detalii de călătorie",
+  "plate_number": "Număr de înmatriculare",
+  "car_production_year": "Anul de producție",
+  "car_model": "Modelul mașinii",
+  "car_color": "Culoarea mașinii",
+  "driver_register_step_payout_details_title": "Detalii de plată",
+  "bank_name": "Numele băncii",
+  "account_number": "Numărul de cont",
+  "bank_swift": "Cod Swift",
+  "bankRoutingNumber": "Numărul de rutare bancară",
+  "driver_register_step_documents_title": "Încărcați documente",
+  "driver_register_step_documents_heading": "Pentru a verifica documentele de mai sus, trebuie să încărcați documentele de mai jos",
+  "driver_register_document_first": "1- Cartea de identitate",
+  "driver_register_document_second": "2- Permisul de conducere",
+  "driver_register_document_third": "3- Înregistrarea vehiculului",
+  "action_upload_document": "Încărcați documentul",
+  "trip_history_empty_state": "Nu a fost înregistrată nicio comandă anterioară.",
+  "wallet_empty_state_message": "Nu există istoric înregistrat.",
+  "enum_unknown": "Necunoscut",
+  "top_up_sheet_pay_button": "Plată",
+  "loading": "SE ÎNCARCĂ",
+  "available_order_action_accept": "Acceptați comanda",
+  "order_status_action_received_cash": "S-a primit plata în numerar",
+  "action_cancel": "Anulare",
+  "order_status_action_navigate": "Navigați",
+  "order_status_action_arrived": "Ați ajuns",
+  "order_status_action_start": "Începeți călătoria",
+  "order_status_action_finished": "Terminați",
+  "message_cant_open_url": "Comanda nu este acceptată",
+  "enum_driver_recharge_type_bank_transfer": "Transfer bancar",
+  "enum_driver_recharge_type_gift": "Cadou",
+  "enum_driver_recharge_type_in_app_payment": "Plată în aplicație",
+  "enum_driver_recharge_transaction_type_order_fee": "Comision de comandă",
+  "enum_driver_deduct_transaction_type_withdraw": "Retragere",
+  "enum_driver_deduct_transaction_type_correction": "Corecție",
+  "enum_driver_deduct_transaction_type_commission": "Comision",
+  "copyright_notice": "Drepturi de autor © {company}, Toate drepturile rezervate.",
+  "@copyright_notice": {
+    "placeholders": {
+      "company": {}
+    }
+  },
+  "wallet_activities_heading": "Activități",
+  "form_required_field_error": "Câmpul este obligatoriu",
+  "button_report_issue": "Raportați o problemă",
+  "issue_submit_title": "Raportați o problemă",
+  "issue_subject_placeholder": "Subiect",
+  "error_field_cant_be_empty": "Nu poate fi gol",
+  "issue_description_placeholder": "Descriere",
+  "complaint_submit_success_message": "Plângerea a fost depusă. Vă rugăm să așteptați un contact de la reprezentantul nostru de asistență referitor la solicitarea dvs.",
+  "menu_earnings": "Venituri",
+  "status_offline_description": "Conectați-vă pentru a vedea cererile",
+  "status_online_description": "Căutarea unei călătorii",
+  "order_status_card_title_driver_accepted": "Clientul va fi notificat după ce apăsați Ajuns",
+  "order_status_card_title_arrived": "Clientul a fost notificat",
+  "order_status_card_title_started": "Îndreptându-se către destinație",
+  "navigation_dialog_title": "Alegeți o aplicație pentru navigare",
+  "action_ride_options": "Opțiuni călătorie",
+  "rider_expected_time_past": "Clientul vă aștepta de acum {minutes} minute",
+  "@rider_expected_time_past": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "rider_expected_time_future": "Clientul vă așteaptă în {minutes} minute",
+  "@rider_expected_time_future": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "order_payment_status_unpaid": "Călătoria nu a fost încă plătită",
+  "order_payment_status_paid": "Călătoria a fost plătită",
+  "action_ride_preferences": "Preferințe călătorie",
+  "navigation_dialog_title_pickup_point": "Navigați către punctul de preluare",
+  "navigation_title_destination_point": "Navigați către punctul de destinație",
+  "rider_options_dialog_title": "Opțiuni călătorie",
+  "action_cancel_ride": "Anulați călătoria",
+  "invoice_dialog_body": "De asemenea, puteți primi numerar în loc de o plată online, dacă dumneavoastră și clientul sunteți de acord.",
+  "invoice_dialog_heading": "Așteptarea plății de la client",
+  "invoice_dialog_title": "Informații de plată",
+  "invoice_item_tip": "Sfaturi",
+  "invoice_item_subtotal": "Subtotal",
+  "add_credit_dialog_title": "Adăugați credit",
+  "add_credit_dialog_select_payment_method": "Selectați metoda de plată:",
+  "add_credit_dialog_choose_amount": "Alegeți suma",
+  "order_details_payment_method_title": "Metoda de plată",
+  "order_payment_method_cash": "Numerar",
+  "order_payment_method_online": "Online",
+  "order_details_trip_information_title": "Informații călătorie",
+  "issue_submit_body": "Puteți raporta orice problemă pe care ați întâmpinat-o în timpul călătoriei. Vă vom ajuta cu problema în cadrul unui apel.",
+  "announcements_empty_state_title": "Nici o notificare încă!",
+  "announcements_empty_state_body": "Vă vom notifica când vor apărea notificări noi.",
+  "empty_state_title_no_record": "Nu s-au găsit date!",
+  "earnings_empty_state_body": "La criteriile setate mai sus, nu am găsit niciun înregistrări.",
+  "action_continue": "Continuați",
+  "terms_and_condition_first_part": "Am citit și sunt de acord cu ",
+  "terms_and_conditions_clickable_part": "Termeni și condiții",
+  "onboarding_welcome": "Bun venit!",
+  "action_login_signup": "Autentificare / Înregistrare",
+  "action_complete_registration": "Finalizare înregistrare",
+  "action_edit_submission": "Editare înregistrare",
+  "incomplete_registration_description": "Vă rugăm să completați înregistrarea",
+  "pending_review_registration_description": "Înregistrarea dvs. este în curs de revizuire, mulțumim pentru răbdare.",
+  "hard_reject_registration": "Înregistrarea dvs. este respinsă în totalitate!",
+  "soft_rejection_description": "Există o problemă cu înregistrarea",
+  "action_confirm_and_continue": "Confirmați și continuați",
+  "ride_preferences_title": "Preferințe călătorie",
+  "action_back": "Înapoi",
+  "title_logout": "Deconectare",
+  "logout_dialog_body": "Sigur doriți să vă deconectați din aplicație?",
+  "action_delete_account": "Ștergere cont",
+  "dialog_account_deletion_title": "Ștergere cont",
+  "dialog_account_deletion_body": "Sigur doriți să ștergeți contul? Vă puteți conecta din nou în termen de 30 de zile pentru a restabili contul. După această perioadă, datele dvs. vor fi eliminate complet, inclusiv toate creditelor rămase.",
+  "wallet_card_title": "{appName} Portofel",
+  "@wallet_card_title": {
+    "placeholders": {
+      "appName": {}
+    }
+  },
+  "order_status_canceled": "Anulat",
+  "driver_register_title": "Înregistrare șofer",
+  "menu_profile": "Profilul meu",
+  "profile_services_title": "Servicii:",
+  "profile_bank_information_title": "Informații bancare",
+  "profile_vehicle_information_title": "Informații vehicul",
+  "profile_distance_traveled": "Distanța parcursă",
+  "profile_total_trips": "Total călătorii",
+  "profile_rating": "Evaluare",
+  "register_number_title": "Introduceți numărul de telefon",
+  "register_number_subtitle": "Vom trimite un cod la numărul dvs. pentru a continua înregistrarea",
+  "register_verify_code_title": "Introduceți codul",
+  "register_verify_code_subtitle": "Am trimis un cod la {number}",
+  "@register_verify_code_subtitle": {
+    "placeholders": {
+      "number": {}
+    }
+  },
+  "register_contact_details_title": "Introduceți datele de contact",
+  "register_payout_details_title": "Introduceți informațiile de plată",
+  "register_ride_details_title": "Introduceți detaliile călătoriei",
+  "register_profile_photo_title": "Încărcați fotografia de profil",
+  "register_profile_photo_subtitle": "Fața dvs. trebuie să fie recunoscută în imaginea încărcată",
+  "action_add_photo": "Adăugați fotografia",
+  "register_upload_documents_title": "Încărcați documentele necesare",
+  "register_upload_documents_subtitle": "Pentru a vă verifica identitatea și a respecta reglementările, avem nevoie să încărcați următoarele documente: \n1- ID-ul foto\n2- Permisiune conducere\n3- Document de proprietate al vehiculului",
+  "register_step_phone_number": "Număr de telefon",
+  "register_step_verify_number": "Verificare număr",
+  "register_step_contact_details": "Detalii de contact",
+  "register_step_ride_details": "Detalii călătorie",
+  "register_step_payout_details": "Detalii de plată",
+  "register_step_upload_documents": "Încărcați documentele",
+  "profile_uploaded_documents_title": "Documente încărcate",
+  "error_cancel_not_allowed": "Anularea nu este permisă pentru o călătorie care a început deja",
+  "distanceMeters": "{distance} m",
+  "@distanceMeters": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceFeet": "{distance} ft",
+  "@distanceFeet": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceMiles": "{distance} mi",
+  "@distanceMiles": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "distanceAway": "{distance} away",
+  "@distanceAway": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Settings",
+  "mapSettings": "Map Settings",
+  "languageSettings": "Language Settings",
+  "orderStatusCardTitleMultipleDestinations": "Heading to {destinationIndex}st destination",
+  "@orderStatusCardTitleMultipleDestinations": {
+    "placeholders": {
+      "destinationIndex": {
+        "type": "int"
+      }
+    }
+  },
+  "actionArrivedToDestination": "Arrived to {destinationIndex}st destination",
+  "@actionArrivedToDestination": {
+    "placeholders": {
+      "destinationIndex": {
+        "type": "int"
+      }
+    }
+  }
+}
